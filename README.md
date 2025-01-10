@@ -28,6 +28,7 @@
     - Modify the BASEURL in frontend project to "/api" [in .env]
 
 - Ngxinx config:
+    ```
     server_name 43.204.96.49;
 
     location /api/ {
@@ -38,6 +39,7 @@
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
+    ```
 
 - Addding a custom Domain name
     - purchase domain name
