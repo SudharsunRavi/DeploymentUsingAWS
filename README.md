@@ -49,7 +49,7 @@
     - DNS record: A devtinder.in 43.204.96.49
     - Enable SSL for website 
 
--Sending Emails via SES
+- Sending Emails via SES
     - Create a IAM user
     - Give Access to AmazonSESFullAccess
     - Amazon SES: Create an Identity
